@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pulsado -->
+    <item
+        android:drawable="@drawable/push_btn_recogeme_main"
+        android:state_pressed="true"
+    ></item>
+    <!-- Sin Pulsar-->
+    <item
+        android:drawable="@drawable/btnrecogeme_main"
+        ></item>
+</selector>

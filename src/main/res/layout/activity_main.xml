@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Azul_Fondo"
+    android:id="@+id/linearPrincipal"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:layout_weight="0.19"
+            android:layout_gravity="center_horizontal|bottom">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_gravity="center" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/fooderText"
+                    android:id="@+id/textView13"
+                    android:textColor="@color/Blanco"
+                    android:textSize="8dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/fooderText2"
+                    android:id="@+id/textView12"
+                    android:textColor="@color/Naranja"
+                    android:textSize="8dp"
+                    android:layout_gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/fooderText3"
+                    android:id="@+id/textView9"
+                    android:textColor="@color/Blanco"
+                    android:textSize="8dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="3dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="292dp"
+                android:layout_height="57dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:weightSum="1" >
+
+                <ImageView
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView7"
+                    android:background="@drawable/inter_fooder"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginRight="@dimen/left_TextBox" />
+
+                <ImageView
+                    android:layout_width="105dp"
+                    android:layout_height="38dp"
+                    android:id="@+id/imageView8"
+                    android:background="@drawable/colcali_fooder"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginLeft="@dimen/left_TextBox" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|top">
+
+            <ImageView
+                android:layout_width="168dp"
+                android:layout_height="138dp"
+                android:id="@+id/imageView5"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/recogeme_main2"
+                android:layout_marginTop="@dimen/top_bottones2" />
+
+            <ImageView
+                android:layout_width="216dp"
+                android:layout_height="71dp"
+                android:id="@+id/imageView2"
+                android:background="@drawable/titulo"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="198dp"
+                android:weightSum="1"
+                android:id="@+id/linearLayout"
+                android:layout_gravity="center">
+
+                <Button
+                    android:layout_width="245dp"
+                    android:layout_height="42dp"
+                    android:id="@+id/btnRecogeme"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/push_btn_recogeme"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/top_bottones_titulo"
+                    android:layout_weight="0.20" />
+
+                <Button
+                    android:layout_width="245dp"
+                    android:layout_height="42dp"
+                    android:id="@+id/btnRecogidas"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/push_btn_mis_recogidas"
+                    android:layout_marginTop="@dimen/top_bottones"
+                    android:layout_weight="0.20" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

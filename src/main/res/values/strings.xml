@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recogeme</string>
+
+    <string name="remitente">Informacíon Remitente</string>
+    <string name="destinatario">Informacíon Destinatario</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="ciudad">Ciudad:</string>
+    <string name="direccion">Dirección:</string>
+    <string name="nombre">Nombre:</string>
+    <string name="telefono">Telefono:</string>
+
+    <string name="tipo_envio">Tipo de Envio:</string>
+    <string name="peso_aprox">Peso Aproximado:</string>
+    <string name="kilos">Kg</string>
+    <string name="numero_peso">8</string>
+
+    <string name="ciudad_Text">Santiago de Cali</string>
+    <string name="direccion_Text">Calle 66 # 1N - 67 :</string>
+    <string name="opcional_Text">Bodegas Sector Calima</string>
+    <string name="nombre_Text">Interrapidisimo Cali</string>
+    <string name="telefono_Text">5242078</string>
+
+    <string name="enviar">Enviar</string>
+    <string name="regresar">Regresar</string>
+    <string name="fooderText">Recóge</string>
+    <string name="fooderText2">me</string>
+    <string name="fooderText3"> Es un servicio prestado por "ColCali S.A." para "Interrapidisimo S.A Regional Cali"</string>
+
+    
+</resources>

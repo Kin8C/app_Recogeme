@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pulsado -->
+    <item
+        android:drawable="@drawable/push_btn_mis_recogidas_main"
+        android:state_pressed="true"
+        ></item>
+    <!-- Sin Pulsar-->
+    <item
+        android:drawable="@drawable/btnmis_recogidas_main"
+        ></item>
+
+</selector>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Azul_Fondo">
+
+    <ImageView
+        android:layout_width="236dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageView4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/top_Titulo"
+        android:background="@drawable/mis_recogidas" />
+
+    <ListView
+        android:layout_width="310dp"
+        android:layout_height="247dp"
+        android:id="@+id/lista_recogidas"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/Blanco"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="111dp"
+        android:layout_height="34dp"
+        android:text="@string/regresar"
+        android:id="@+id/btnRegresarR"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/Naranja"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
